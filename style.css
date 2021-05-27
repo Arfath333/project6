@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  width: 100vw;
+}
+.logo {
+  margin: 3em 0em 1em 0em;
+  text-align: center;
+  font-weight: 700;
+}
+.logo p {
+  margin: 1.5em auto;
+}
+.logo span {
+  color: rgba(72, 129, 254, 255);
+}
+.subscribe {
+  margin: 0em auto;
+}
+.subscribe h3 {
+  margin: 0.5em auto;
+  color: darkgrey;
+  font-weight: 300;
+}
+.subscribe span {
+  font-weight: 700;
+  color: black;
+}
+.subscribe p {
+  font-size: 0.6em;
+  font-weight: 600;
+  color: rgba(110, 111, 115, 255);
+}
+
+.login {
+  padding: 1em 3em;
+}
+.login input,
+.login button {
+  padding: 1em 1.5em;
+  width: 100%;
+  font-size: 0.7em;
+  border: 1px solid lightgrey;
+  color: rgba(220, 226, 239, 255);
+  border-radius: 2em;
+}
+
+.login button {
+  color: white;
+  margin: 1em auto;
+  background-color: rgba(77, 123, 243, 255);
+  font-weight: 300;
+  border: none;
+  box-shadow: 0px 3px 8px 1px lightblue;
+}
+.image img {
+  margin: 1em 2em;
+  width: 80%;
+  align-items: center;
+}
+.icons {
+  margin: 3em 0em 1em 0em;
+  text-align: center;
+}
+.icons i {
+  font-size: 0.8em;
+  border: 1px solid rgba(239, 239, 248, 255);
+  text-align: center;
+  padding: 6px 6px;
+  color: rgba(75, 123, 242, 255);
+  border-radius: 3em;
+}
+
+.text {
+  font-size: 0.5em;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .login {
+    display: flex;
+  }
+
+  .image img {
+    width: 50%;
+    margin: auto 12em;
+  }
+  .login {
+    width: 65%;
+    margin: 1em auto;
+  }
+  .login input {
+    width: 180%;
+    margin: 1em 1em;
+  }
+}
